@@ -122,12 +122,9 @@ img {
   gap: 10px;
 }
 .contact-logo {
-  
   fill: currentColor;
   align-self: center;
-  
 }
-
 
 .contacts a:hover,
 .contacts a:focus {
@@ -135,12 +132,12 @@ img {
 }
 
 .hero {
-  background-color: #C4C4C4;
+  background-color: #c4c4c4;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-     url(../img/hero.jpg);
+    url(../img/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -224,11 +221,7 @@ img {
   align-items: center;
   justify-content: center;
   background-color: #f5f4fa;
-  margin-bottom: 30px;
   
-}
-.button-icon {
-  background-size: cover;
 }
 
 .feature {
@@ -238,6 +231,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--site-nav-text);
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 .feature-list {
@@ -294,7 +288,7 @@ img {
 }
 .team-social-list {
   justify-content: center;
-  
+
   margin-bottom: 30px;
   gap: 10px;
 }
@@ -306,25 +300,21 @@ img {
   height: 44px;
   align-items: center;
   justify-content: center;
-  
 }
 
 .team-link:hover .contact-logo-team,
 .team-link:focus .contact-logo-team {
- fill: #FFFFFF;
-
+  fill: #ffffff;
 }
 .contact-logo-team {
-  fill: #AFB1B8;
-
+  fill: #afb1b8;
 }
 
 .team-link:hover,
 .team-link:focus {
-fill: #FFFFFF;
-background-color: var(--hover-color);
-
- }
+  fill: #ffffff;
+  background-color: var(--hover-color);
+}
 .teamwork-list {
   background-color: var(--white-text);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -332,10 +322,60 @@ background-color: var(--hover-color);
   border-radius: 0px 0px 4px 4px;
 }
 
+.clients-section {
+  padding-top: 92px;
+  padding-bottom: 92px;
+}
+.clients-title {
+  
+ font-size: 36px;
+ line-height: 1.17;
+ text-align: center;
+ letter-spacing: 0.03em;
+ color: var(--site-nav-text);
+ margin-bottom: 50px;
+}
+.clients-list {
+  display: flex;
+  gap: 30px;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--back-list-color);
+  flex-basis: calc(100% / 6 - 30px);
+  flex-grow: 1;
+}
+.clients-icon {
+  display: flex;
+  width: 170px;
+  height: 92px;
+    align-items: center;
+  justify-content: center;
+  background-color: var(--back-list-color);
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+.clients-icon:hover,
+.clients-icon:focus {
+  border: 1px solid var(--hover-color) 
+}
+
+.button-icon {
+  background-size: cover;
+  fill: #AFB1B8;
+}
+.clients-icon:hover .button-icon,
+.clients-icon:focus .button-icon {
+  fill: var(--hover-color);
+}
+
 .footer {
   background: var(--footer-bgc);
   padding-top: 60px;
   padding-bottom: 60px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .footer-container {
   display: flex;
@@ -361,15 +401,15 @@ background-color: var(--hover-color);
   color: var(--hover-color);
 }
 .footer-text {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-margin-bottom: 20px;
-color:  var(--white-text);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: var(--white-text);
 }
 .footer-link {
   display: flex;
@@ -378,12 +418,12 @@ color:  var(--white-text);
   height: 44px;
   align-items: center;
   justify-content: center;
-  background:  rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.1);
 }
 .footer-link:hover,
 .footer-link:focus {
-  fill: #FFFFFF;
-background-color: var(--hover-color);
+  fill: #ffffff;
+  background-color: var(--hover-color);
 }
 .footer-social-link {
   padding-top: 12px;
@@ -391,11 +431,6 @@ background-color: var(--hover-color);
 .footer-contacts {
   fill: var(--white-text);
 }
-
-
-
-
-
 
 .work-title {
   font-weight: 700;
@@ -464,4 +499,9 @@ background-color: var(--hover-color);
 .all-items {
   display: flex;
   flex-basis: calc((100% - 2 * 30px) / 3);
+}
+
+.all-items:hover,
+.all-items:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
