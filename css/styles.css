@@ -221,7 +221,6 @@ img {
   align-items: center;
   justify-content: center;
   background-color: #f5f4fa;
-  
 }
 
 .feature {
@@ -327,13 +326,12 @@ img {
   padding-bottom: 92px;
 }
 .clients-title {
-  
- font-size: 36px;
- line-height: 1.17;
- text-align: center;
- letter-spacing: 0.03em;
- color: var(--site-nav-text);
- margin-bottom: 50px;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--site-nav-text);
+  margin-bottom: 50px;
 }
 .clients-list {
   display: flex;
@@ -349,20 +347,20 @@ img {
   display: flex;
   width: 170px;
   height: 92px;
-    align-items: center;
+  align-items: center;
   justify-content: center;
   background-color: var(--back-list-color);
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
 }
 .clients-icon:hover,
 .clients-icon:focus {
-  border: 1px solid var(--hover-color) 
+  border: 1px solid var(--hover-color);
 }
 
 .button-icon {
   background-size: cover;
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
 .clients-icon:hover .button-icon,
 .clients-icon:focus .button-icon {
